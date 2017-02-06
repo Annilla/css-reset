@@ -1,0 +1,19 @@
+{
+  "name": "css-reset",
+  "version": "1.0.0",
+  "description": "Customization of JUKSY's CSS Reset",
+  "main": "css/reset.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juksy/css-reset.git"
+  },
+  "author": "JUKSY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juksy/css-reset/issues"
+  },
+  "homepage": "https://github.com/juksy/css-reset#readme"
+}
