@@ -1,7 +1,7 @@
 {
-  "name": "css-reset",
+  "name": "juksy-css-reset",
   "version": "1.0.0",
-  "description": "Customization of JUKSY's CSS Reset",
+  "description": "Customization of JUKSY's EVENTS CSS Reset",
   "main": "css/reset.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
