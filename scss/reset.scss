@@ -1,6 +1,3 @@
-@import "variables";
-@import "mixin";
-
 // css reset
 html {
 	-ms-text-size-adjust: 100%;
@@ -11,18 +8,10 @@ html {
 
 body {
 	margin: 0;
-	font-family: $font_body;
-	font-size: 16px;
-	line-height: $line-height;
-	letter-spacing: 3px;
+	font-family: 'Roboto', 'Microsoft JhengHei', sans-serif;
+	font-size: 1em;
 	text-align: justify;
 	overflow-x: hidden;
-    @include screen(tb) {
-		font-size: 24px;
-	}
-	@include screen(pcSmall) {
-		font-size: 18px;
-	}
 	&.noscroll {
 		overflow: hidden;
 	}
@@ -41,7 +30,7 @@ a {
 	color: inherit;
 	cursor: pointer;
 	text-decoration: none;
-	@include transition;
+	transition: all 0.5s;
 }
 
 img {
